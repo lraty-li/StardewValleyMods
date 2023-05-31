@@ -72,7 +72,9 @@ namespace OKNightCheck
 			{
 				snapToDefaultClickableComponent();
 			}
-		}
+			okClicked();
+
+        }
 
 		public new void RepositionItems()
 		{
